@@ -1,0 +1,110 @@
+html {
+  --section-background-color: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.582),
+    rgba(12, 8, 24, 0.904)
+  );
+
+  --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.678),
+    rgba(12, 10, 22, 0.863)
+  );
+
+  --imp-text-color: #c770f0;
+}
+/* Navbar */
+
+.NavBar_link{
+  color: red !important;
+  text-shadow: 1px 1px 15px rgba(255, 0, 0, 0.629) !important;
+}
+.NavBar_link:hover{
+  color: blue !important;
+  text-shadow: 1px 1px 15px rgba(0, 0, 255, 0.629) !important;
+}
+/* Header */
+.Header_mian{
+  filter: blur(1.5rem);
+  background-image: linear-gradient(to left, rgb(53, 24, 24), rgb(30, 26, 61));
+height: 10vh;
+}
+.main-name{
+  color: red;
+  text-shadow: 1px 1px 15px rgba(255, 0, 0, 0.47) !important;
+  cursor: none;
+}
+.heading{
+color: white;
+}
+.heading-name{
+  color: white;
+}
+.signIn_panal{
+border:2px solid rgb(255, 0, 0);
+box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.629);
+border-radius: 1rem;
+height: 30rem;
+padding: 2rem;
+display: grid;
+transition: border 1.5s ease-in-out;
+}
+.signUp_panal{
+border:2px solid rgb(255, 0, 0);
+box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.629);
+border-radius: 1rem;
+height: 40rem;
+padding: 2rem;
+display: grid;
+transition: border 1.5s ease-in-out;
+}
+
+.Form_lable{
+color: white !important;
+display: flex;
+justify-self: start;
+}
+.Form_lable:hover{
+	text-shadow: 1px 1px 5px white;
+}
+.signIn_panal:hover{
+border:2px solid rgb(255, 113, 113);
+box-shadow:inset 0px 0px 15px rgb(255, 0, 0), 0 0 10px rgb(255, 0, 0);
+background-color:red!important;
+border-radius: 1rem;
+}
+.form_btn{
+border:2px solid rgb(255, 163, 163);
+box-shadow:inset 0px 0px 15px rgb(255, 0, 0), 0 0 10px rgb(255, 0, 0);
+background-color: rgb(255, 0, 0) !important;
+outline: none;
+padding-top: 6px;
+padding-bottom: 6px;
+color: #ffffff !important;
+border-radius: 0.5rem;
+}
+.signup_heading{
+font-size: 3rem;
+font-weight: 800;
+color: red;
+display: contents;
+text-shadow :  1px 1px 15px rgba(255, 0, 0, 0.47) 
+}
+
+.form_input{
+	background-color: transparent !important;
+	color: white !important;
+	border: 2px solid red !important;
+	box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.629);
+	
+  }
+  .form_input::placeholder{
+	color: rgba(255, 0, 0, 0.348) !important;
+  }
+.Wrapper{
+	padding: 50px;
+	color: red;
+	border: 2px solid red;
+	text-align: left;
+    height:22rem;
+}
